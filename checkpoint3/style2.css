@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+  font-family: Arial;
+  color: rgb(37, 37, 210);
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(83, 137, 83) ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: rgb(237, 235, 232);
+  z-index: 100
+  
+  
+}
+.main{
+  background-color:aliceblue;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 50px;
+  padding-top: 30px;
+
+}
+
+.nav-bar ul {
+  display: flex; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  margin-left: 20px; 
+  position: relative;
+}
+
+.nav-bar a {
+  text-decoration: none; 
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  
+}
+.nav-bar li .dropdown-content{
+display: none;
+position: absolute;
+background-color: hsl(0, 0%, 95%);
+min-width: 100px;
+box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.nav-bar:hover .dropdown-content{
+    display: block;
+    background-color: rgb(217, 244, 229);
+    color: cyan;
+}
+.nav-bar:hover .dropdown-content a:hover{
+background-color: azure;
+display: block;
+
+}
+.main p{
+  font-family: Arial;
+
+}
+#services,#tourism, pre{
+  font-family: Arial;
+}
+.inputs{
+  margin-bottom: 45px;
+}
+#username,#password,#email,#phone{
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 2px;
+}
+#payment{
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.submit{
+  border: none;
+  text-align: center;
+  padding: 10px 15px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: greenyellow;
+}

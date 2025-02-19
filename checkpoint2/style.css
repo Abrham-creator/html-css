@@ -1,0 +1,66 @@
+
+h1 {
+  font-family: Arial;
+  color: rgb(37, 37, 210);
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(83, 137, 83) ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: rgb(237, 235, 232);
+  
+}
+.main{
+  background-color:aliceblue;
+}
+
+.nav-bar ul {
+  display: flex; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  margin-left: 20px; 
+}
+
+.nav-bar a {
+  text-decoration: none; 
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+.main p{
+  font-family: Arial;
+
+}
+#services,#tourism, pre{
+  font-family: Arial;
+}
+.inputs{
+  margin-bottom: 45px;
+}
+#username,#password,#email,#phone{
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 2px;
+}
+#payment{
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.submit{
+  border: none;
+  text-align: center;
+  padding: 10px 15px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: greenyellow;
+}
